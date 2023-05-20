@@ -1,0 +1,935 @@
+div#contents_wrap{
+    width: 100%;
+    min-height: 2400px;
+}
+/* -----------------------가로스크롤 시작---------------------------- */
+div#visual_wrap{
+    width:100%; 
+    height:100%;
+    position:relative;
+    left:0px;
+    top:0px; 
+}
+div#visual_inner{
+    width: 8000px;  
+    height:100%;
+    position:sticky;  
+    left:0px;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* transition: top 1s ease-out;        */
+}
+div#jeju_space_wrap{
+    width: 1900px;
+    height: 100%;
+    overflow: hidden;
+}
+div#jeju_space{
+    width:100%;
+    height: 100%;
+    position:relative;
+    left:0px; 
+    top:0px;
+    background: white;
+}
+div#jeju_space_text{
+    width: 1200px;
+    height: 694px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    position:absolute;
+    left:50%;
+    margin-left:-600px; 
+    top:190px;
+    z-index:10;
+}
+p#jeju_space_title{
+    width: 100%;
+    height: 190px;
+    margin: 0px auto;
+    font: normal 150px 'Spectral';
+    text-align: center;
+    color: #4F4F4F;
+
+}
+p#jeju_space_subtxt{
+    width: 800px;
+    height: 50px;
+    margin: 0px auto;
+    font: normal 20px 'Spectral';
+    text-align: center;
+    color: #4F4F4F;
+
+    /* margin-top: 50px; */
+}
+div#jeju_space_imgleft{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left:200px;
+    top: 300px;
+}
+div#jeju_space_imgright{
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    left: 1400px;
+    top: 50px;
+}
+div#jeju_space_imgleft img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_space_imgright img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_space_icon{
+    width: 94px;
+    height: 89px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -47px;
+}
+div#jeju_space_icon img{
+    width: 100%;
+    height: 100%;
+}
+
+div#jeju_img1{
+    width: 380px;
+    height: 403px;
+    position: absolute;
+    top: 446px;
+    left: 2034px;
+    z-index: 11;
+}
+div#jeju_img1 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img2{
+    width: 400px;
+    height: 402px;
+    position: absolute;
+    top: 525px;
+    left: 2735px;
+    z-index: 11;
+}
+div#jeju_img2 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img3{
+    width: 341px;
+    height: 345px;
+    position: absolute;
+    top: 40px;
+    left: 3135px;
+}
+div#jeju_img3 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img4{
+    width: 387px;
+    height: 228px;
+    position: absolute;
+    top: 609px;
+    left: 3413px;
+}
+div#jeju_img4 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img5{
+    width: 528px;
+    height: 336px;
+    position: absolute;
+    top: 146px;
+    left: 3800px;
+}
+div#jeju_img5 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img6{
+    width: 316px;
+    height: 364px;
+    position: absolute;
+    top: 547px;
+    left: 4242px;
+}
+div#jeju_img6 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img7{
+    width: 341px;
+    height: 345px;
+    position: absolute;
+    top: 80px;
+    left: 4629px;
+    z-index: 11;
+}
+div#jeju_img7 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img8{
+    width: 424px;
+    height: 612px;
+    position: absolute;
+    top: 225px;
+    left: 5136px;
+}
+div#jeju_img8 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img9{
+    width: 543px;
+    height: 346px;
+    position: absolute;
+    top: 565px;
+    left: 5774px;
+}
+div#jeju_img9 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img10{
+    width: 409px;
+    height: 331px;
+    position: absolute;
+    top: 127px;
+    left: 6030px;
+    z-index: 11;
+}
+div#jeju_img10 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img11{
+    width: 406px;
+    height: 445px;
+    position: absolute;
+    top: 488px;
+    left: 6527px;
+}
+div#jeju_img11 img{
+    width: 100%;
+    height: 100%;
+}
+div#jeju_img12{
+    width: 380px;
+    height: 572px;
+    position: absolute;
+    top: 55px;
+    left: 7030px;
+}
+div#jeju_img12 img{
+    width: 100%;
+    height: 100%;
+}
+/* -----------------------가로스크롤 끝---------------------------- */
+
+/* --------------------------캠핑추천페이지시작----------------------- */
+div#campingspace_wrap{
+    width:100%;
+    height:2313px;
+}
+section#campingspace{
+    width:100%;
+    height:100%;
+    /* background:green; */
+    background:url('/jejuspace/images/camping_background.jpg') no-repeat 0px 0px;
+    background-size:cover;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+p#space_title{
+    width:1726px;
+    height:356px;
+    /* background:red; */
+    font:normal 110px "Inknut Antiqua";
+    line-height:138px;
+    color:#707070;
+    transform:rotate(90deg);
+    position:absolute;
+    right:-665px;
+    top:765px;
+}
+div#space_top{
+    width:59.21%;
+    height:25.63%;
+    position:absolute;
+    left:13.1%;
+    top:9.72%;
+}
+p#spacetop_title{
+    font:normal 40px "Inknut Antiqua";
+    color:#5B5B5B;
+    margin-top:-20px;
+    position:absolute;
+    z-index:4;
+}
+p#spacetop_text{
+    width:34.93%;
+    height:23.1%;
+    font:normal 14px/24px "Noto Sans KR";
+    color:#3e3e3e;
+    position:absolute;
+    top:80px;
+    z-index:4;
+}
+p#spacetop_img{
+    width:88.88%;
+    height:93.59%;
+    position:absolute;
+    right:50px;
+    top:30px;
+    z-index:2;
+}
+p#spacetop_img>img{
+    width:100%;
+    height:100%;
+}
+ul#spacetop_list{
+    width:57px;
+    height:156px;
+    /* background:red; */
+    position:absolute;
+    right:0px;
+    top:180px;
+}
+ul#spacetop_list>li{
+    width:54px;
+    height:42px;
+    text-align:center;
+    margin-bottom:20px;
+}
+ul#spacetop_list>li>a>i{
+    font-size:28px;
+    color:#B0B0B0;
+}
+/* 캠핑추천1끝 */
+div#space_mid{
+    width:41.89%;
+    height:30.6%;
+    position:absolute;
+    right:12%;
+    top:32.64%;
+}
+p#spacemid_title{
+    font:normal 40px "Inknut Antiqua";
+    color:#5B5B5B;
+    margin-top:-20px;
+    position:absolute;
+    left:140px;
+    z-index:4;
+}
+p#spacemid_text{
+    width:41.08%;
+    height:27.68%;
+    font:normal 14px/24px "Noto Sans KR";
+    color:#3e3e3e;
+    position:absolute;
+    left:140px;
+    top:80px;
+    z-index:4;
+}
+p#spacemid_img{
+    width:90.7%;
+    height:89.83%;
+    position:absolute;
+    right:70px;
+    top:30px;
+    z-index:2;
+}
+p#spacemid_img>img{
+    width:100%;
+    height:100%;
+}
+ul#spacemid_list{
+    width:57px;
+    height:156px;
+    position:absolute;
+    right:0px;
+    top:300px;
+}
+ul#spacemid_list>li{
+    width:54px;
+    height:42px;
+    text-align:center;
+    margin-bottom:20px;
+}
+ul#spacemid_list>li>a>i{
+    font-size:28px;
+    color:#949494;
+}
+/* 캠핑2추천 끝 */
+div#cometojeju {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: #fff;
+    width: 5em;
+    height: 5em;
+}
+div#space_bottom{
+    width:54.63%;
+    height:33.14%;
+    position:absolute;
+    left:0px;
+    bottom:10.75%;
+}
+p#spacebottom_title{
+    font:normal 40px "Inknut Antiqua";
+    color:#5B5B5B;
+    margin-top:-20px;
+    position:absolute;
+    left:170px;
+    z-index:4;
+}
+p#spacebottom_text{
+    width:41.08%;
+    height:27.68%;
+    font:normal 14px/24px "Noto Sans KR";
+    color:#3e3e3e;
+    position:absolute;
+    left:170px;
+    top:80px;
+    z-index:4;
+}
+p#spacebottom_img{
+    width:100%;
+    height:60.23%;
+    position:absolute;
+    left:0px;
+    bottom:16.75%;
+    z-index:2;
+}
+p#spacebottom_img>img{
+    width:100%;
+    height:100%;
+}
+ul#spacebottom_list{
+    width:57px;
+    height:156px;
+    /* background:red; */
+    position:absolute;
+    left:80px;
+    top:80px;
+}
+ul#spacebottom_list>li{
+    width:54px;
+    height:42px;
+    text-align:center;
+    margin-bottom:20px;
+}
+ul#spacebottom_list>li>a>i{
+    font-size:28px;
+    color:#747474;
+}
+p#space_silhouette{
+    width:100%;
+    height:336px;
+    position:absolute;
+    left: 0px;
+    bottom:0px;
+}
+p#space_silhouette>img{
+    width:100%;
+    height:100%;
+}
+/* --------------------------캠핑추천페이지 끝----------------------- */
+/* --------------------------메뉴 스케일 시작----------------------- */
+div#jeju_space_course_wrap{
+    width: 100%;
+    height: 834px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+div#jeju_space_course_logoimg{
+    width: 82px;
+    height: 77px;
+    position: absolute;
+    left: 50%;
+    margin-left: -41px;
+    top: 30px;
+}
+div#jeju_space_course_logoimg img{
+    width: 100%;
+}
+
+div#jeju_space_course_list{
+    width: 100%;
+    height: 834px;
+}
+section#jeju_space_course_left{
+    width: 50%;
+    height: 834px;
+    float: left;
+    /* z-index: 2; */
+    background: #54605A;
+}
+section#jeju_space_course_left:hover{
+ background:url('/jejuspace/images/jeju_course_left_img.jpg') no-repeat center 0px; 
+ background-size:cover; 
+ /* transform:scale(1.2,1.2) */
+}
+section#jeju_space_course_right{
+    width: 50%;
+    height: 834px;
+    float: left;
+    /* z-index: 2; */
+    background: #6F7570;
+}
+section#jeju_space_course_right:hover{
+ background:url('/jejuspace/images/jeju_course_right_img.jpg') no-repeat center 0px; 
+ background-size:cover; 
+ /* transform:scale(1.2,1.2) */
+}
+div.jeju_space_course_t_wrap{
+    width: 100%;
+    height: 400px;
+    margin-top: 300px;
+}
+h2.jeju_space_course_title{
+    width: 700px;
+    height: 130px;
+    margin: 0px auto;
+    font: normal 48px 'Inknut Antiqua';
+    text-align: center;
+    color: white;
+}
+p.jeju_space_course_text{
+    width: 570px;
+    height: 150px;
+    margin: 0px auto;
+    font: normal 24px 'Inknut Antiqua';
+    text-align: center;
+    color: white;
+}
+/* --------------------------메뉴 스케일 끝----------------------- */
+
+/* --------------------------한라봉 시작----------------------- */
+div#mouse_cursor_wrap{
+    width: 100%;
+    height: 964px;
+    /* background: blueviolet; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+div#background{
+    width: 100%;
+    height: 100%;
+    background: url('/jejuspace/images/rabong_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+p#background_logo{
+    width:82px;
+    height:77px;
+    position:absolute;
+    left:50%;
+    margin-left:-41px;
+    top:30px;
+    z-index: 11;
+}
+p.background_title{
+    width:835px;
+    height:165px;
+    font: bold 120px 'Inknut Antiqua'; 
+    color: #455B50;
+    position: absolute;
+    left:50%;
+    margin-left:-417px;
+    top:296px;
+
+    /* opacity: 0;
+    transition: all 2s; */
+}
+p.background_sub{
+    width:471px;
+    height:69px;
+    font: bold 40px 'Inknut Antiqua'; 
+    color: #FFFFFF;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left:-235px;
+}
+
+div#background_cursor{
+    width:4372px;
+    height:2218px;
+    /* background:red; */
+    background:url('/jejuspace/images/mouse_cursor.png') no-repeat ;
+    background-size:cover;
+    position:absolute;
+    /* left:50%;
+    margin-left:-1900px;
+    top:50%; */
+    /* margin-top:-914px; */
+    z-index: 10; 
+
+}
+html{
+    cursor:block;
+    height:100%;
+}
+/* --------------------------한라봉 끝----------------------- */
+
+/* --------------------------제주도 지도 시작----------------------- */
+div#jejumap_wrap{
+    width: 100%;
+    height: 2200px;
+    /* background: red; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* background: royalblue; */
+}
+
+/* h2#jejumap_title{
+    font: bold 240px 'Inknut Antiqua';
+} */
+
+h2#jejumap_title{
+    width: 1900px;
+    height: 550px;
+    font: bold 240px 'Inknut Antiqua'; 
+    background:url('/jejuspace/images/orange_text.jpg') no-repeat center;
+    background-size:cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+p#jejumap_sub{
+    font: normal 170px 'Inknut Antiqua';
+    color: #C4C4C4;
+    position: absolute;
+    top: 350px;
+    right: 0px;
+}
+
+div#jejumap{
+    width: 100%;
+    height: 100%;
+}
+
+div#jejumap_image{
+    width: 1533px;
+    height: 1179px;
+    background: url('/jejuspace/images/jeju_map2.png') no-repeat;
+    position: absolute;
+    top: 650px;
+    right: 0px;
+}
+
+section#map1{
+    width: 447px;
+    height: 470px;
+    position: absolute;
+    top: -120px;
+    left: 460px;
+
+}
+section#map1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+}
+p#icon1{
+    position: absolute;
+    top: 500px;
+    left: 223px;
+}
+p#icon1>i{
+    font-size: 50px;
+    color: #CF7515;
+}
+
+section#map2{
+    width: 447px;
+    height: 470px;
+    position: absolute;
+    top: 310px;
+    left: 865px;
+
+}
+section#map2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+}
+p#icon2{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+p#icon2>i{
+    font-size: 50px;
+    color: #CF7515;
+}
+
+section#map3{
+    width: 447px;
+    height: 470px;
+    position: absolute;
+    top: 250px;
+    left: 210px;
+}
+section#map3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+}
+p#icon3{
+    position: absolute;
+    top: 490px;
+    left: 202px;
+}
+p#icon3>i{
+    font-size: 50px;
+    color: #CF7515;
+}
+section#map4{
+    width: 447px;
+    height: 470px;
+    position: absolute;
+    top: -230px;
+    left: 1010px;
+}
+section#map4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+}
+p#icon4{
+    position: absolute;
+    top: 500px;
+    right: 105px;
+}
+p#icon4>i{
+    font-size: 50px;
+    color: #CF7515;
+}
+
+div#just_icon{
+    width: 660px;
+    height: 110px;
+    /* background-color: red; */
+    position: relative;
+    top: -200px;
+    left:1230px;
+}
+div#just_plus{
+    width: 79px;
+    height: 844px;
+    position: relative;
+    top: -1400px;
+    left: 0px;
+}
+/* --------------------------제주도 지도 끝----------------------- */
+/* --------------------------나무이미지 시작----------------------- */
+
+div#tree{
+    width: 100%;
+    height: 1031px;
+    background:url('/jejuspace/images/mountain_banner.jpg') no-repeat fixed;
+    background-size: cover;
+}
+/* --------------------------나무이미지 끝----------------------- */
+/* --------------------------인스타 이미지 시작----------------------- */
+
+div#insta_wrap{
+    width: 1900px;
+    height: 2100px;
+    background:white;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+h2#insta_title{
+    width: 970px;
+    height:720px;
+    font: bold 240px/300px 'Inknut Antiqua'; 
+    background:url('/jejuspace/images/instatext_img_2.jpg') no-repeat center;
+    background-size:cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    position: absolute;
+    left: 14px;
+    top: 0px;
+    /* background: red; */
+    
+}
+p#camera{
+    width: 656px;
+    height: 846px;
+    position: absolute;
+    right: 0px;
+    top: 255px;
+    opacity: .3;
+}
+div#instapost{
+    width: 1900px;
+    height: 1313px;
+    padding-top: 802px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+p#instapost1{
+    width: 333px;
+    height: 544px;
+    position: relative;
+    left: 115px;
+    top: 189px;
+}
+p#pin1{
+    position: relative;
+    left:-80px;
+    top:159px;
+}
+p#instapost2{
+    width: 333px;
+    height: 544px;
+    position: relative;
+    left: 168px;
+    top: 430px;
+} 
+p#pin2{
+    position: relative;
+    left:-10px;
+    top:400px;
+}
+p#instapost3{
+    width: 333px;
+    height: 544px;
+    position: relative;
+    left: 220px;
+    top: 39px;
+}
+p#pin3{
+    position: relative;
+    left:30px;
+    top:10px;
+}
+p#instapost4{
+    width: 333px;
+    height: 544px;
+    position: relative;
+    left: 0px;
+    top: 622px;
+    z-index: 70;
+    transform: rotate(-12deg);
+}
+p#instapost5{
+    width: 333px;
+    height: 544px;
+    position: relative;
+    left: -20px;
+    top: 300px;
+    transform: rotate(-15deg);
+}
+p#instapost6{
+    width: 147px;
+    height: 544px;
+    position: relative;
+    right: 50px;
+    top: 552px;
+} 
+
+/* --------------------------인스타 이미지 끝----------------------- */
+/* --------------------------footer 시작----------------------- */
+
+div#footer_detail{
+    width:100%;
+    height:11px;
+    box-sizing:border-box;
+}
+div#footer_detail>p>a{
+    font:bold 0.875em "Noto Sans";
+    color:white;
+    float:left;
+    margin-top:56px;
+    margin-left:5%;
+}
+ul#footer_list{
+    width:14.91%;
+    height:41px;
+    /* background:red; */
+    float:right;
+    margin-top:45px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:center;
+    line-height:40px;
+    position:absolute;
+    right:30px;
+}
+ul#footer_list>li{
+    width:40px;
+    height:40px;
+    line-height:-40px;
+    border-radius: 20px;
+    background:#585858;
+    font-size:26px;
+}
+ul#footer_list>li>a>i{
+    color:white;
+}
+div#footer_info{
+    width:100%;
+    height:56px;
+    margin-top:110px;
+    padding-left:5%;
+    box-sizing:border-box;
+    border-top:dotted 1px gray;
+    padding-top:30px;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+div#footer_info>p{
+    width:33%;
+    font:normal 0.875em "Noto Sans";
+    color:white;
+    float:left;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+p#footer_logo{
+    position:absolute;
+    right:30px;
+    top:0px;
+}
+p#footer_logo>img{
+    width:89px;
+    height:86px;
+    position:absolute;
+    right:10px;
+    top:20px;
+}
